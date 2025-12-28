@@ -1,0 +1,29 @@
+goate-electric/
+├─ contracts/
+│  ├─ core/
+│  │  ├─ GoateToken.sol
+│  │  ├─ VaultBase.sol
+│  │  ├─ ExecutionRouter.sol
+│  │
+│  ├─ vaults/
+│  │  ├─ GETVL.sol
+│  │  ├─ FinancialPool.sol
+│  │  ├─ ReservePool.sol
+│  │
+│  ├─ dao/
+│  │  ├─ GoateDAO.sol
+│  │  ├─ FinanceDAO.sol
+│  │
+│  ├─ social/
+│  │  ├─ FollowUp.sol
+│  │  ├─ HomeTeamPicks.sol
+│  │
+│  ├─ devices/
+│  │  ├─ DeviceManager.sol
+│  │  ├─ CloudMiningNFT.sol
+│  │
+│  ├─ utils/
+│  │  ├─ SafeMath.sol
+│  │  ├─ Errors.sol
+│
+├─ README.md
