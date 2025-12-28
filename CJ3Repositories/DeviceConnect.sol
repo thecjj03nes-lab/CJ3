@@ -18,3 +18,10 @@ contract DeviceConnect is Ownable {    InstilledInteroperability public intero
     function getUserDevices(address user) external view returns (Device[] memory) {        return userDevices[user];    }
     function isDeviceActive(string memory deviceId) external view returns (bool) {        Device[] memory devices = userDevices[msg.sender];        for (uint256 i = 0; i < devices.length; i++) {            if (keccak256(bytes(devices[i].deviceId)) == keccak256(bytes(deviceId))) {                return devices[i].isActive;            }        }        return false;    }
 function consumeForDevice(string memory deviceId, string memory asset, uint256 amount) external {    require(deviceExists[deviceId], "Device not found");    if (keccak256(bytes(asset)) == keccak256(bytes("ZPE"))) {        Zeropoint zpe = Zeropoint(interoperability.tokenMap(1, "ZPE"));        zpe.consumeEnergy(msg.sender, amount);    } else if (keccak256(bytes(asset)) == keccak256(bytes("ZPW"))) {        ZeropointWifi zpw = ZeropointWifi(interoperability.tokenMap(1, "ZPW"));        zpw.burn(amount);    } else if (keccak256(bytes(asset)) == keccak256(bytes("ZPP"))) {        ZeropointPhoneService zpp = ZeropointPhoneService(interoperability.tokenMap(1, "ZPP"));        zpp.burn(amount);    }    emit DeviceUpdated(msg.sender, deviceId, amount, true);}}
+
+
+_____________________
+
+contingency: 30% allocated to $CJ3Reserve as $USDC, 70% to sdk/api user;
+subscription fee: $25/ a month OR +5% allocated to the owner address;
+amount $CJ3 to stake to deploy to mainnet: $100/ per contract using in sdk/api (allocate to $CJ3Reserves as $XLM)
