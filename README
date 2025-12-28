@@ -6,7 +6,7 @@
 
 - Buy $CJ3:(
 
-amount token => contract => (amount $CJ3 to buyer), token as $yUSDC in $CJ# marketcap (allocated: 70% to token holder, 20% to $CJ3Reserves as $yBTC, 10% to the owner address as $yXLM)
+amount token => contract => (amount $CJ3 to buyer), token as $yUSDC in $CJ3 marketcap (allocated: 70% to token holder, 20% to $CJ3Reserves as $yBTC, 10% to the owner address as $yXLM)
 
 ),
 
