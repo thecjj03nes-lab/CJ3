@@ -8,7 +8,7 @@ pragma solidity ^0.8;
 
 // ADP, WORKFORCE, LinkedIn, ETC
 
-contract EmployeePiPay ={
+contract EmployeePay ={
 
 
 // create company account, kyc/aml, bbb
@@ -54,7 +54,7 @@ return worker[wallet.address];
 
 
 
-// pay worker pi [USD denomination]
+// pay worker crypto [USD denomination]
      (require == workerTimeLog);
 if payPeriod = every 2 weeks,
 then the sum of hoursWorkedInADay,
