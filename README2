@@ -1,6 +1,6 @@
 Header:(
   logo,
-  CJ3,
+  CJ03NES,
   (Dark mode/light mode),
   Connect Wallet (changes to wallet address upon wallet connection & when they click it then a red confirm disconnect wallet button should popup),
   Hamburger Menu (Home, Build)
