@@ -68,3 +68,10 @@ So that interoperability, payments, swaps, interests, dividends, fees and etc ar
 "$USDDenomination as $BTC", "$BTC as $USDDenomination";
 
 so that it's simple, no revisions needed, and will process the same, but transparently.
+
+
+_____________________
+
+contingency: 30% allocated to $CJ3Reserve as $USDC, 70% to sdk/api user;
+subscription fee: $25/ a month OR +5% allocated to the owner address;
+amount $CJ3 to stake to deploy to mainnet: $100/ per contract using in sdk/api (allocate to $CJ3Reserves as $XLM)
