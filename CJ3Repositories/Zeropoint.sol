@@ -6,3 +6,8 @@ contract Zeropoint is ERC20, Ownable {    constructor() ERC20("Zeropoint", "ZP
     function burn(address from, uint256 amount) public onlyOwner {        _burn(from, amount);    }
     // Provide energy and reward with $ZPE    function provideEnergy(address user, uint256 amount) external onlyOwner {        _mint(user, amount);    }
     // Consume energy by burning $ZPE    function consumeEnergy(address user, uint256 amount) external {        require(balanceOf(user) >= amount, "Insufficient $ZPE");        _burn(user, amount);    }}
+_____________________
+
+contingency: 80% revenue allocated to $CJ3Reserve as $USDC, 20% to sdk/api user;
+subscription fee: $25/ a month OR +5% revenue allocated to the owner address;
+amount $CJ3 to stake to deploy to mainnet: $100/ per contract using in sdk/api (allocate to $CJ3Reserves as $XLM)
