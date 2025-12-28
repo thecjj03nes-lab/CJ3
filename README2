@@ -1,0 +1,43 @@
+Header:(
+  logo,
+  CJ3,
+  (Dark mode/light mode),
+  Connect Wallet (changes to wallet address upon wallet connection & when they click it then a red confirm disconnect wallet button should popup),
+  Hamburger Menu (Home, Build)
+  ),
+
+Home page:(
+
+  Interactive modal with the $CJ3 marketcap & daily interest per token hokldr stats;
+
+
+  Buy $CJ3 button , modal, and execution;
+  Sell $CJ3 button, modal, and execution;
+
+
+  Wallet Transaction History
+
+
+  ),
+
+
+Build Page:(
+
+  An interactive developer dashboard and developer chatbot with a $CJ3 Repository dropdown with contracts, features, and functions that are eligible to be contracted using generated sdks/apis based on subscription, contingency, and mainnet deployment fees;
+  devHelpers should help users develop, test, and deploy their products using the contract sdk/apis for testnet & mainnet productions;
+  the $CJ3 Repository dropdown should allow the to add/unadd contracts/features/functions to and from their sdk/api for usage;
+  the $CJ3 Repository dropdown should have the name of the contract and then a description of the functionality that it can provide
+
+  subscription fees should be allocated to the $CJ3Reserve as $XLM (a one-time $25 USD fee paid at the begining of sdk/api testnet development);
+  contingency fees/revenue allocations should be allocated to the $CJ3Reserve as $USDC (a coded allocation for utilizing $CJ3 code functionality and sdk/api);
+  and the mainnet deployment fees should be allocated to the $CJ3Reserve as $AQUA (a one-time fee of $100 per contract they are using from the $CJ3 repo and sdk/api);
+
+
+  ),
+
+
+
+Dark mode: black background, gold text;
+  Light mode: white background, dark brown text;
+
+
