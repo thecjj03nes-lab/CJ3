@@ -7,6 +7,7 @@ token => $CJ3 => vendor
 token => $GE => vendor
 token => $AQUA => vendor
 token => $GySt => vendor
+selectCryptoToPayWith;
 
 
 
